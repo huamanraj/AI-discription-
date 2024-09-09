@@ -1,0 +1,15 @@
+http://localhost:3000/api/generate-job-description
+
+------------
+POST
+--------------
+
+{
+  "industry": "Hospitality",
+  "experience": "5+ years",
+  "role": "Hotel Manager",
+  "skills": ["Problem-solving", "Team leadership"],
+  "technical": ["Property Management Systems", "Booking Software", "Customer Service"],
+  "soft": ["Communication", "Teamwork"],
+  "other": "Ability to work in a high-pressure environment"
+}

@@ -1,0 +1,47 @@
+
+http://localhost:3000/api/rate-profiles
+
+
+
+
+---------------------------
+POST 
+
+-------------------------
+
+{
+  "jobPost": {
+    "industry": "Hospitality",
+    "experience": "3",
+    "role": "Guest Relations Manager",
+    "skills": ["Customer service", "Conflict resolution"],
+    "technical": ["CRM software", "Reservation systems"],
+    "soft": ["Empathy", "Communication"]
+  },
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "yearsOfExperience": "5",
+      "skills": ["Customer service", "Team management"],
+      "technicalSkills": ["CRM software", "Reservation systems"],
+      "softSkills": ["Empathy", "Conflict resolution", "Communication"]
+    },
+    {
+      "id": 2,
+      "name": "Bob Williams",
+      "yearsOfExperience": "2",
+      "skills": ["Guest satisfaction", "Time management"],
+      "technicalSkills": ["CRM software", "Event management software"],
+      "softSkills": ["Problem-solving", "Adaptability"]
+    },
+    {
+      "id": 3,
+      "name": "Bob Williams",
+      "yearsOfExperience": "2",
+      "skills": ["Customer service", "Conflict resolution"],
+      "technicalSkills": ["CRM software", "Event management software"],
+      "softSkills": ["Problem-solving", "Adaptability", "Communication"]
+    }
+  ]
+}
